@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+
+# Data files (too large for GitHub)
+crawler/data/*.json
+crawler/data/*.xlsx
+crawler/data/*.pkl
+crawler/data/*.png
+
+# Keep only the dashboard HTML
+!docs/
+
+# OS
+.DS_Store
